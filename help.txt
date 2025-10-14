@@ -1,0 +1,41 @@
+Правило установки библиотек на UBUNTU:
+
+- Sudo apt update
+- Sudo apt install...
+
+Проверка версии PYTHON:
+
+- python3 --version
+
+Установка PYTHON:
+
+- Sudo apt update
+- Sudo apt install python3
+
+Если выходит ошибка при установке виртуальной среды
+Установка доп библиотек для venv
+
+- Sudo apt update
+- Sudo apt install python3-venv
+
+Создание виртуальной среды:
+
+- python3 -venv venv
+
+Активация venv:
+
+- for mac/linux - source venv/bin/activate
+- for windows - venv\Scripts\activate
+
+Деактивация:
+ - deactivate
+
+ Установка flet на устройство:
+
+ - windows/linux - pip install flet[all]
+ - MacOS - pip install flet
+
+ Установка доп библиотек:
+
+  - sudo apt update
+  - sudo apt install libmpv1

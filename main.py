@@ -4,7 +4,7 @@ import re  # для извлечения имени из строки
 
 def main(page: ft.Page):
     page.title = 'Мое первое приложение!'
-    page.theme_mode = ft.ThemeMode.LIGHT
+    page.theme_mode = ft.ThemeMode
 
     greeting_text = ft.Text('Hello World', selectable=True)
     age_input = ft.TextField(label='Введите возраст:', expand=True)
@@ -116,3 +116,4 @@ def main(page: ft.Page):
 
 ft.app(target=main)
 
+#nnn
